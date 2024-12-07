@@ -4,8 +4,8 @@ function Logar(){ //função para validar o login
     const user = "teste@teste"
     const senha_User = "teste"
 
-    var login = document.getElementById('login').value; // obtenção dos valores de entrada
-    var senha = document.getElementById('senha').value;
+    let login = document.getElementById('login').value; // obtenção dos valores de entrada
+    let senha = document.getElementById('senha').value;
 
     if(login == user && senha == senha_User){ // processo de validaão comparando com as const
     location.href = "/home/home.html";

@@ -46,7 +46,7 @@ figure {
     margin: 5px; 
 }
 
-.container {
+.container { 
     border: 2px solid black; 
     border-radius: 8px;
     display: flex;
